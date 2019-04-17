@@ -146,3 +146,9 @@ main {
         }
     }
 }
+
+section#contacto {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: $padding;
+}
