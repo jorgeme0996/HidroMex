@@ -11,7 +11,7 @@ app.get("/", function(req, res){
     res.render("landing/landing");
 });
 
-app.post("/contacto", function(req, res) {
+/* app.post("/contacto", function(req, res) {
     let contacto = req.body.contacto;
     const output = `
         <p>Tienes una nueva solicitud!!!!</p>
@@ -52,7 +52,7 @@ app.post("/contacto", function(req, res) {
     })
 
     res.render('ok');
-})
+}) */
 
 app.listen(process.env.PORT || 3000, function(){
     console.log("Esta vivo!!!!")
